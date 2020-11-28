@@ -65,10 +65,6 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionDescription}>
                 Tidak Perlu diupdate di playstore lagi dong
               </Text>
-              <Text style={styles.sectionDescription}>
-                asjdaksdjkasljdaksdjl
-              </Text>
-
               <TouchableOpacity onPress={onButtonPress}>
                 <Text>Check for updates</Text>
               </TouchableOpacity>
