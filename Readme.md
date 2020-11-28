@@ -1,8 +1,10 @@
-# Setup for OTA React Native CLI Using AppCenter
+## Setup for OTA React Native CLI Using AppCenter
 
-## Setup SDK AppCenter (Android)
+### Setup SDK AppCenter (Android)
 1. Add the SDK to the project
-    ```bash npm install appcenter appcenter-analytics appcenter-crashes --save-exact ```
+    ```bash 
+    npm install appcenter appcenter-analytics appcenter-crashes --save-exact
+    ```
 2. Integrate the SDK
     - Create a new file with the filename appcenter-config.json in android/app/src/main/assets/ with the following content:
     ```bash 
