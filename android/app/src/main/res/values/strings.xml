@@ -2,5 +2,5 @@
     <string name="app_name">AppTest</string>
     <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
     <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
-    <string moduleConfig="true" name="CodePushDeploymentKey">mH2EMwj5-l5WtGfvR6AN7__RjQFzBn4lDAVfg</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">jRqHqU6L0Soek7CAakDtnSoRIpXc6DoksLvS_</string>
 </resources>
