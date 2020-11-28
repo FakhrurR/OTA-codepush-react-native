@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -6,6 +6,7 @@ import {
   View,
   Text,
   StatusBar,
+  TouchableOpacity,
 } from 'react-native';
 
 import {
@@ -16,8 +17,16 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import codePush from "react-native-code-push";
-let codePushOptions = { checkFrequency: codePush.CheckFrequency.ON_APP_RESUME };
+let codePushOptions = { checkFrequency: codePush.CheckFrequency.MANUAL };
 const App: () => React$Node = () => {
+
+  const onButtonPress = () => {
+    codePush.sync({
+        updateDialog: true,
+        installMode: codePush.InstallMode.IMMEDIATE
+    });
+  }
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -56,6 +65,10 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionDescription}>
                 Tidak Perlu diupdate di playstore lagi dong
               </Text>
+
+              <TouchableOpacity onPress={onButtonPress}>
+                <Text>Check for updates</Text>
+              </TouchableOpacity>
             </View>
             <LearnMoreLinks />
           </View>
