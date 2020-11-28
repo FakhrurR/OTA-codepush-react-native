@@ -57,7 +57,9 @@ const App: () => React$Node = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Update OTA Boss</Text>
               <Text style={styles.sectionDescription}>
-                <DebugInstructions />
+              <Text style={styles.sectionDescription}>
+                Ini harus nya udah berubah sob
+              </Text>
               </Text>
             </View>
             <View style={styles.sectionContainer}>
