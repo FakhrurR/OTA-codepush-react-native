@@ -46,15 +46,15 @@ const App: () => React$Node = () => {
               </Text>
             </View> */}
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
+              <Text style={styles.sectionTitle}>Update OTA Boss</Text>
               <Text style={styles.sectionDescription}>
                 <DebugInstructions />
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
+              <Text style={styles.sectionTitle}>Jadi</Text>
               <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
+                Tidak Perlu diupdate di playstore lagi dong
               </Text>
             </View>
             <LearnMoreLinks />
