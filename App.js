@@ -20,12 +20,12 @@ import codePush from "react-native-code-push";
 let codePushOptions = { checkFrequency: codePush.CheckFrequency.MANUAL };
 const App: () => React$Node = () => {
 
-  const onButtonPress = () => {
-    codePush.sync({
-        updateDialog: true,
-        installMode: codePush.InstallMode.IMMEDIATE
-    });
-  }
+  // const onButtonPress = () => {
+  //   codePush.sync({
+  //       updateDialog: true,
+  //       installMode: codePush.InstallMode.IMMEDIATE
+  //   });
+  // }
 
   return (
     <>
@@ -69,11 +69,11 @@ const App: () => React$Node = () => {
                 asjdaksdjkasljdaksdjl
               </Text>
 
-              <TouchableOpacity onPress={onButtonPress}>
+              {/* <TouchableOpacity onPress={onButtonPress}>
                 <Text>Check for updates</Text>
-              </TouchableOpacity>
+              </TouchableOpacity> */}
             </View>
-            <LearnMoreLinks />
+            {/* <LearnMoreLinks /> */}
           </View>
         </ScrollView>
       </SafeAreaView>
