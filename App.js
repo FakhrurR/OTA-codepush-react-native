@@ -73,7 +73,7 @@ const App: () => React$Node = () => {
                 <Text>Check for updates</Text>
               </TouchableOpacity>
             </View>
-            {/* <LearnMoreLinks /> */}
+            <LearnMoreLinks />
           </View>
         </ScrollView>
       </SafeAreaView>
